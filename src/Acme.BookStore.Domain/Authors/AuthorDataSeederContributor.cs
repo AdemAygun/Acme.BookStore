@@ -36,13 +36,13 @@ namespace Acme.AuthorStore
                 );
                 
                 await _filmRepository.InsertAsync(
-                    new Film { AuthorId = authorId, Name = "Harry Potter1" },
+                    new Film { AuthorId = authorId, Name = "The Return of the King 1" },
                     autoSave: true);
                 await _filmRepository.InsertAsync(
-                    new Film { AuthorId = authorId, Name = "Harry Potter2" },
+                    new Film { AuthorId = authorId, Name = "The Return of the King 2" },
                     autoSave: true);
                 await _filmRepository.InsertAsync(
-                    new Film { AuthorId = authorId, Name = "Harry Potter3" },
+                    new Film { AuthorId = authorId, Name = "The Return of the King 3" },
                     autoSave: true);
             }
 
