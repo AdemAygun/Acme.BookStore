@@ -31,7 +31,7 @@ namespace Acme.AuthorStore
             {
                 var authorId = _guidGenerator.Create();
                 await _authorRepository.InsertAsync(
-                    new Author(authorId, "Peter Jackson", DateTime.Now.AddYears(-60), "bio1"),
+                    new Author(authorId, "J. R. R. Tolkien", DateTime.Now.AddYears(-60), "bio1"),
                     autoSave: true
                 );
                 
